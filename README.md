@@ -4,7 +4,7 @@ LibreNMS is an autodiscovering PHP/MySQL/SNMP based network monitoring which inc
 
 ## Installation
 
-LibeNMS can be installed in 2 way, install with docker or install directly on server.
+LibeNMS can be installed in two way, install with docker or install directly on server.
 
 ### Install Directly on Server
 
@@ -35,9 +35,9 @@ Follow instruction bellow
 
 ## Accessing Librenms
 
-Know we know LibreNMS have 2 different way to installed it, of course there have been 2 different ways to access LibreNMS so you can change the configuration
+To access libreNMS there are two ways depends on the installation method you used
 
-### When Install Directly
+### Direct Install
 
 Access LibreNMS using
 
@@ -45,7 +45,7 @@ Access LibreNMS using
 sudo su - librenms
 ```
 
-### When Install Using Docker
+### Docker Install
 
 Access LibreNMS using 
 
