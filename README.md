@@ -24,7 +24,7 @@ Follow instruction bellow
    unzip master.zip
    cd docker-master/examples/compose
    ```
-4. Set a new mysql password in .env and inspect docker-composer.yml (look .env and .yml file above for reference)
+4. Set a new mysql password in .env and inspect docker-composer.yml (look example folder above for reference)
 5. Bring up the docker containers
 
    ```bash
