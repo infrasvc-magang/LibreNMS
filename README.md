@@ -35,7 +35,7 @@ Follow instruction bellow
 
 ## Accessing Librenms
 
-Know we know LibreNMS have 2 different way to installed it, of course there have been 2 different way to access LibreNMS so you can change the configuration
+Know we know LibreNMS have 2 different way to installed it, of course there have been 2 different ways to access LibreNMS so you can change the configuration
 
 ### When Install Directly
 
@@ -47,10 +47,11 @@ su - librenms
 
 ### When Install Using Docker
 
-Access LibreNMS using
+Access LibreNMS using 
 
 ```bash
 docker exec -it librenms bash
 ```
+> note : LibreNMS Image using docker used alpine linux command bash for configuration, so make sure type the right command when doing a change on configuration
 
-
+## 
