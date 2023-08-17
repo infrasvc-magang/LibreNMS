@@ -24,6 +24,9 @@ Follow instruction bellow
    unzip master.zip
    cd docker-master/examples/compose
    ```
-4. Set a new mysql password in .env and inspect docker-composer.yml
+4. Set a new mysql password in .env and inspect docker-composer.yml (look .env and .yml file above for reference)
 5. Bring up the docker containers
 6. Open webui to finish configuration. http://localhost (use the correct ip or name instead of localhost)
+   > note : add default port (8000) at the end of the web address since docker assign your ip using default port. (example http://localhost:8000)
+
+
