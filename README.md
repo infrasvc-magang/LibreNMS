@@ -31,6 +31,6 @@ Follow instruction bellow
    docker compose up -d
    ```
 7. Open webui to finish configuration. http://localhost (use the correct ip or name instead of localhost)
-   > note : add default port (8000) at the end of the web address since docker assign your ip using default port. (example http://localhost:8000)
+   > note : add default port (8000) at the end of the web address when you want to open the webui since docker assign your ip using default port. (example http://localhost:8000)
 
 
