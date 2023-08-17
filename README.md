@@ -33,4 +33,24 @@ Follow instruction bellow
 7. Open webui to finish configuration. http://localhost (use the correct ip or name instead of localhost)
    > note : add default port (8000) at the end of the web address when you want to open the webui since docker assign your ip using default port. (example http://localhost:8000)
 
+## Accessing Librenms
+
+Know we know LibreNMS have 2 different way to installed it, of course there have been 2 different way to access LibreNMS so you can change the configuration
+
+### When Install Directly
+
+Access LibreNMS using
+
+```bash
+su - librenms
+```
+
+### When Install Using Docker
+
+Access LibreNMS using
+
+```bash
+docker exec -it librenms bash
+```
+
 
